@@ -1,5 +1,7 @@
 # Fleet Console (Local-First Fleet Monitoring System)
 
+**Repository Link:** [https://github.com/manikandanffour-5151/fleetconsole](https://github.com/manikandanffour-5151/fleetconsole)
+
 A high-performance, local-first Flutter monitoring application designed for fleet operators managing up to **500 electric trucks**. Inbound vehicle telemetry is ingested directly into an embedded database engine (`sqflite` / `duckdb`), with state hydrated directly from disk via reactive SQL queries and BLoC state management (`flutter_bloc`).
 
 ---
@@ -14,7 +16,8 @@ A high-performance, local-first Flutter monitoring application designed for flee
 ### Installation & Execution
 ```bash
 # 1. Clone or navigate to the project directory
-cd fleet_console
+git clone https://github.com/manikandanffour-5151/fleetconsole.git
+cd fleetconsole
 
 # 2. Install dependencies
 flutter pub get
